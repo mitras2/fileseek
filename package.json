@@ -1,0 +1,26 @@
+{
+  "name": "fileseek",
+  "version": "1.0.1",
+  "description": "Search files recursively based on a regular expression",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogoeichert/fileseek.git"
+  },
+  "keywords": [
+    "file",
+    "find",
+    "recursive",
+    "search",
+    "seek"
+  ],
+  "author": "Diogo Eichert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diogoeichert/fileseek/issues"
+  },
+  "homepage": "https://github.com/diogoeichert/fileseek#readme"
+}
