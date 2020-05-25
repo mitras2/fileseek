@@ -13,5 +13,5 @@ npm install fileseek --save
 Then:
 ```
 const fileseek = require("fileseek");
-fileseek("/path/to/dir", /expression/);
+fileseek("/path/to/dir", /expression/ [, recursive=false]);
 ```
