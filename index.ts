@@ -1,9 +1,7 @@
-"use static";
+import * as fs from 'fs';
 
-const fs = require("fs");
-
-function fileseek(path, expression, recursive = true) {
-    const result = [];
+export default function fileseek(path: string, expression: RegExp, recursive: boolean = true): string[] {
+    const result: string[] = [];
 
     if(!fs.existsSync(path)) {
         console.error('The given path does not exist');
@@ -22,5 +20,3 @@ function fileseek(path, expression, recursive = true) {
 
     return result;
 }
-
-module.exports = fileseek;
